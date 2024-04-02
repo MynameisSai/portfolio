@@ -1,0 +1,108 @@
+h1{
+    font-size: 50px;
+    
+    text-align: center;
+    color:green;
+    font-weight: 1000;
+    
+}  
+.a{
+    font-size: 30px;
+    color: aliceblue;
+}  
+h2{
+    
+    color: yellow;
+    font-size:50px ;
+}
+details{
+    color: darkmagenta;
+}
+
+body{
+    background-color: black;
+}
+title{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box{
+    font-size: 30px;
+    background-color: black;
+    text-align:left;
+    height: 100px;
+    width: 100px;
+    transform:translate(50px);
+    border-radius: 100px;
+    text-align: center;
+    background-color: blue ;
+
+    animation-name: abc;
+    animation-duration: 4s;
+    
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    
+}
+
+ @keyframes abc {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 1300px;
+    }
+ }      
+ 
+ .box2{
+    
+    font-size: 30px;
+    background-color: black;
+    text-align:left;
+    height: 100px;
+    width: 100px;
+    transform:translate(50px);
+    border-radius: 100px;
+    text-align: center;
+    background-color: blue ;
+
+    animation-name: abc;
+    animation-duration: 4s;
+    
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    
+
+ }
+ 
+ @keyframes boxhover {
+    from{
+        width: 50px;
+    }
+    to{
+        width: 1300px;
+    }
+    
+ }
+ h2:hover{
+    animation-name: boxhover;
+    font-size: 50px;
+    color: black;
+    background-color: black;
+    text-align:left;
+    height: 100px;
+    width: 100px;
+    transform:translate(50px);
+    border-radius: 100px;
+    text-align: center;
+    background-color:yellow ;
+
+    animation-name:boxhover;
+    animation-duration: 4s;
+    
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    
+
+ }
